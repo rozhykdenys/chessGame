@@ -1,0 +1,52 @@
+.black,
+.white {
+    position: absolute;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.white {
+    &.rookW {
+        background: url(../../img/rookW.png);
+    }
+    &.knightW {
+        background-image: url(../../img/knightW.png);
+    }
+    &.bishopW {
+        background-image: url(../../img/bishopW.png);
+    }
+    &.kingW {
+        background-image: url(../../img/kingW.png);
+    }
+    &.queenW {
+        background-image: url(../../img/queenW.png);
+    }
+    &.pawnW {
+        background-image: url(../../img/pawnW.png);
+    }
+}
+
+.black {
+    &.rookB {
+        background-image: url(../../img/rookB.png);
+    }
+    &.knightB {
+        background-image: url(../../img/knightB.png);
+    }
+    &.bishopB {
+        background-image: url(../../img/bishopB.png);
+    }
+    &.kingB {
+        background-image: url(../../img/kingB.png);
+    }
+    &.queenB {
+        background-image: url(../../img/queenB.png);
+    }
+    &.pawnB {
+        background-image: url(../../img/pawnB.png);
+    }
+}

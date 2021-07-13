@@ -1,6 +1,4 @@
 import '../scss/style.scss';
-import { showBoard } from './chessBoard';
+import Game from './gameLogic';
 
-window.addEventListener('load', (e) => {
-    showBoard();
-});
+const game = new Game();

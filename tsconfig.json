@@ -1,17 +1,12 @@
 {
     "compilerOptions": {
-      "target": "ES2020",
-      "module": "ES2020", 
-      "lib": ["ES2020", "dom"], 
-      "sourceMap": true,
-      "removeComments": true,
-      "strict": true, 
+      "outDir": "./dist/",
       "noImplicitAny": true,
-      "strictNullChecks": true,
-      "strictFunctionTypes": true,
-      "strictPropertyInitialization": true,
-      "noImplicitThis": true,
-      "alwaysStrict":  true,
+      "module": "es6",
+      "target": "es2015",
+      "jsx": "react",
+      "allowJs": true,
+      "types": ["google.maps"],
+      "moduleResolution": "node",
     }
   }
-  

@@ -1,0 +1,82 @@
+.titleBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $white;
+    line-height: 1.5;
+    font-size: 14px;
+
+    .title {
+        font-size: 50px;
+        margin-bottom: 50px;
+
+        &::after {
+            content: '';
+            display: block;
+            width: 100px;
+            height: 5px;
+            background-color: $violet;
+        }
+    }
+
+    .companyName,
+    .companySlogan {
+        font-weight: 700;
+        color: $violet;
+    }
+
+    .companyInfo {
+        margin-bottom: 20px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+.contactsBlock {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contacts {
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+    .contactsTitle {
+        font-size: 20px;
+
+        &::after {
+            content: '';
+            display: block;
+            width: 20px;
+            height: 3px;
+            background-color: $violet;
+            margin-top: 5px;
+        }
+    }
+
+    .fas {
+        width: 20px;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+}
+.map {
+    border: 5px solid $violet;
+    box-shadow: 0 0 20px $violet;
+    width: 600px;
+    height: 400px;
+}
+.backBlock {
+    color: $white;
+    text-decoration: underline;
+    font-size: 14px;
+
+    .fas {
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess</title>
+    <link rel='stylesheet' href='./dist/css/style.css'>
+</head>
+<body>
+    <div class="container" itemscope itemtype='https://schema.org/Product'>
+        <header class="header">
+            <div class="logo" itemprop='logo'><i class="fas fa-chess" ></i> <span itemprop='name'>Chess</span></div>
+        </header>
+        <div class="chessBlock">
+            <div class="letters">
+                <div>a</div>
+                <div>b</div>
+                <div>c</div>
+                <div>d</div>
+                <div>e</div>
+                <div>f</div>
+                <div>g</div>
+                <div>h</div>
+            </div>
+            <div class="chessDeskContainer">
+                <div class="numbers">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>
+                    <div>7</div>
+                    <div>8</div>
+                </div>
+                <div class="chessDesk">
+                    <canvas id='board' width="480" height="480" class='board'>
+                        Your browser doesn't support canvas element.
+                    </canvas>
+                </div>
+                <div class="numbers">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>
+                    <div>7</div>
+                    <div>8</div>
+                </div>
+            </div>
+            <div class="letters">
+                <div>a</div>
+                <div>b</div>
+                <div>c</div>
+                <div>d</div>
+                <div>e</div>
+                <div>f</div>
+                <div>g</div>
+                <div>h</div>
+            </div>
+        </div>
+        <div class="historyBlock">
+            <output name="history" id="history" class='history'></output>
+        </div>
+        <div class="buttonsBlock">
+            <button id='loadData' class='dataButton'>Load</button>
+            <button id='saveData' class='dataButton'>Save</button>
+        </div>
+        <div class="infoBlock"><a href="./info.html">About us<i class="fas fa-arrow-right"></i></a></div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/e9af660540.js" crossorigin="anonymous"></script>
+    <script src='./dist/js/main.bundle.js'></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+$violet: #8e1cda;
+$white: #f6f6f6;
+$black: #222;
+$mainFont: 'Roboto', sans-serif;
+
+@mixin hoverEffect {
+    @media (pointer: fine) {
+        &:hover {
+            @content;
+        }
+    }
+}
